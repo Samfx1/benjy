@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(8, 130, 134);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.unit-converter-container {
+  background-color: rgb(119, 118, 158);
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.content h2 {
+  text-align: center;
+  background-color: #0c1a97;
+  color: white;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+input,
+select {
+  width: 90%;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+  border: 1px solid #f0bebe;
+  border-radius: 5px;
+  gap: 7px;
+  justify-content: space-between;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.dropdown {
+  flex: 1;
+  gap: 10px;
+  
+  
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between; /* Aligns buttons to the left and right */
+  margin-top: 10px;
+}
+
+#clear-btn {
+  margin-right: 100px; /* Increase space between the buttons */
+}
+
+button {
+  background-color: #1417aa;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4510c2;
+}
+
+.result {
+  margin-top: 15px;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+select
+#from-unit{
+  margin: 0px, 0px, 8px;
+  padding: 12px;
+}
+select
+#to-unit{
+  padding: 6px;
+  margin: 0px, 0px,8px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body style="background-image:url('IMG\ back.jpg') ;">
+ </body>
+  <div class="unit-converter-container">
+    <div class="header">
+      <span id="current-time"></span>
+    </div>
+    <div class="content">
+      <h2>Unit Converter</h2>
+      <form id="converter-form">
+        <label for="distance">Enter distance</label>
+        <input type="number" id="distance" placeholder="Enter value" required>
+        
+          <div class="dropdown">
+            <label for="from-unit">From</label>
+
+            <select id="from-unit">
+              <option value="meters">meters</option>
+              <option value="kilometers">kilometers</option>
+              <option value="miles">miles</option>
+              <option value="inches">inches</option>
+              <option value="feet">feet</option>
+
+
+            </select>
+          </div>
+          <div class="dropdown">
+            <label for="to-unit">To</label>
+            <select id="to-unit">
+              <option value="meters">meters</option>
+              <option value="kilometers">kilometers</option>
+              <option value="miles">miles</option>
+              <option value="inches">inches</option>
+              <option value="feet">feet</option>
+            </select>
+<div class="buttons">
+<button type="reset" id="clear-btn">Clear</button>
+<button type="button" id="convert-btn">Convert</button>
+        </div>
+        <div class="result">
+          <h2>Conversion Result</h2>
+          <p id="outputResult">Result: </p>
+        </div>
+      </form>
+      <footer>
+        <marquee behaviour="scrolling-text" direction="left">
+        HarleyTec IT Solutions & Yiiko TEC Contact us 0531741116 / 0205768023 for more Details.Thank you!!!</marquee>         
+</footer>
+  <script src="Node.js"></script>
+</body>
+</html>
